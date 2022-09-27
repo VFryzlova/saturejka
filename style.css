@@ -94,5 +94,8 @@ header img {
 }
 
 .section button {
+    all: unset;
     margin-top: 20px;
+    background-color: #ffefef;
+    padding: 16px;
 }
