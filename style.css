@@ -54,6 +54,7 @@ header img {
 
 .top-texts {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .top-texts div {
@@ -67,4 +68,27 @@ header img {
 
 .top-texts div p:not(:first-child) {
     margin-top: 40px;
+}
+
+.section {
+    display: flex;
+    margin: 40px 0;
+}
+
+.section .text-content {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.section:nth-child(odd) .text-content {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.section:nth-child(even) {
+    flex-flow: row-reverse;
+}
+
+.section img {
+    max-width: 260px;
 }
